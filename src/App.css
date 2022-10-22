@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background-color: #076063;
+}
+
+button{
+  width: 250px;
+  height: 80px;
+  font-size: 35px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+button:hover{
+  background-color: #00471b;
+}
+
+.boton-click{
+  background-color: #002ead;
+}
+
+.reiniciar{
+  background-color: #5a01a7;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.contenedor-principal{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
